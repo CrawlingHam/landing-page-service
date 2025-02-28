@@ -13,10 +13,7 @@ applications:
               baseDirectory: .next
               files:
                   - "**/*"
-                  - ../public/**/*
-                  - ../node_modules/**/*
-                  - ../package.json
-                  - next.config.ts
+                  - index.html
           cache:
               paths:
                   - node_modules/**/*
